@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url(https://media.discordapp.net/attachments/866695736560058421/877619595727491143/volkan-vardar-1H30uRC1plc-unsplash.jpg?width=273&height=412);
+
+    min-height: 635px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
