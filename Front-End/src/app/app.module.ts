@@ -12,6 +12,12 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { EntrarComponent } from './entrar/entrar.component';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { OProjetoComponent } from './o-projeto/o-projeto.component';
+import { CriadoresComponent } from './criadores/criadores.component';
+
 
 @NgModule({
   declarations: [
@@ -20,8 +26,12 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     SobreNosComponent,
     HomeComponent,
     RodapeComponent,
-    //EntrarComponent,
-    //CadastrarComponent,
+    EntrarComponent,
+    CadastrarComponent,
+    HomePageComponent,
+    OProjetoComponent,
+    CriadoresComponent,
+
   ],
   imports: [
     BrowserModule,
