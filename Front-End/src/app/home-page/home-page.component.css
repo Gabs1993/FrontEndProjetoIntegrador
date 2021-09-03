@@ -1,0 +1,30 @@
+#preto{
+  background-color: black;
+
+}
+
+.efeito {
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.container{
+  animation-name: fade;
+  animation-duration: 5s
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+
+  }
+  }
+
+
