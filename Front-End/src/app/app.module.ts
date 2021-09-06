@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
-import { HomeComponent } from './home/home.component';
+
 import { RodapeComponent } from './rodape/rodape.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
@@ -17,6 +17,8 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { OProjetoComponent } from './o-projeto/o-projeto.component';
 import { CriadoresComponent } from './criadores/criadores.component';
+import { IncioComponent } from './incio/incio.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 @NgModule({
@@ -24,13 +26,15 @@ import { CriadoresComponent } from './criadores/criadores.component';
     AppComponent,
     MenuComponent,
     SobreNosComponent,
-    HomeComponent,
     RodapeComponent,
     EntrarComponent,
     CadastrarComponent,
     HomePageComponent,
     OProjetoComponent,
     CriadoresComponent,
+    IncioComponent,
+    PerfilComponent,
+
 
   ],
   imports: [
